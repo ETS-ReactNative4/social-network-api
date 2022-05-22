@@ -1,33 +1,45 @@
 const userData = [{
+  thoughtText: "Feugiat nibh sed pulvinar proin gravida hendrerit",
   username: "ZeinZeid",
-  email: "ZeinZeid@gmail.com",
-  thoughts: [],
-  friends: []
+  reactions: [{
+    reactionBody: "In hac habitasse platea dictumst quisque sagittis.",
+    username: "AbdulAbdul"
+    }]
   },{
+  thoughtText: "Ultricies lacus sed turpis tincidunt id aliquet risus.",
   username: "AbdulAbdul",
-  email: "AbdulAbdul@gmail.com",
-  thoughts: [],
-  friends: []
+  reactions: [{
+    reactionBody: "Nibh mauris cursus mattis molestie a.",
+    username: "AlexClark"
+    }]
   },{
+  thoughtText: "Porttitor massa id neque aliquam vestibulum.",
   username: "AlexClark",
-  email: "AlexClark@gmail.com",
-  thoughts: [],
-  friends: []
+  reactions: [{
+    reactionBody: "Nullam vehicula ipsum a arcu cursus vitae congue mauris rhoncus.",
+    username: "XanderCoollastname"
+    }]
   },{
+  thoughtText: "Sollicitudin aliquam ultrices sagittis orci a scelerisque.",
   username: "ZenNez",
-  email: "ZenNez@gmail.com",
-  thoughts: [],
-  friends: []
+  reactions: [{
+    reactionBody: "Quis viverra nibh cras pulvinar mattis nunc sed.",
+    username: "AbdulAbdul"
+    }]
   },{
+  thoughtText: "Sed lectus vestibulum mattis ullamcorper velit sed.",
   username: "XanderCoollastname",
-  email: "XanderCoollastname@gmail.com",
-  thoughts: [],
-  friends: []
+  reactions: [{
+    reactionBody: "Dapibus ultrices in iaculis nunc sed augue lacus viverra vitae.",
+    username: "ZenNez"
+    }]
   },{
+  thoughtText: "Tortor at risus viverra adipiscing at in tellus integer feugiat.",
   username: "SarahParker",
-  email: "SarahParker@gmail.com",
-  thoughts: [],
-  friends: []
+  reactions: [{
+    reactionBody: "In dictum non consectetur a.",
+    username: "ZeinZeid"
+    }]
   }
 ];
 
