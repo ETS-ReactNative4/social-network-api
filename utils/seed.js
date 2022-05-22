@@ -12,17 +12,13 @@ connection.once('open', async () => {
   await User.deleteMany({});
   await Thought.deleteMany({});
 
-  const users = userData;
-  const thoughts = thoughtData;
-
   // Add data to collection
-  await User.collection.insertMany(users);
-  await Thought.collection.insertMany(thoughts);
-
+  await User.collection.insertMany(userData);
+  await Thought.collection.insertMany(thoughtData);
 
   // Log out the seed data to indicate what should appear in the database
-  console.table(users);
-  console.table(thoughts);
+  console.table(userData);
+  console.table(thoughtData);
   console.info('Seeding complete! 🌱');
   process.exit(0);
 });
