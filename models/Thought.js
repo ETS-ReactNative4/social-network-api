@@ -27,7 +27,7 @@ const thoughtSchema = new Schema(
   }
 );
 
-userSchema
+thoughtSchema
   .virtual('reachtionCount')
   .get(function () {
     return this.reactions.length;
