@@ -26,6 +26,12 @@ const thoughtSchema = new Schema(
   }
 );
 
+userSchema
+  .virtual('reachtionCount')
+  .get(function () {
+    return this.reactions.length;
+  })
+
 const Thought = model('thought', thoughtSchema);
 
 module.exports = Thought;
