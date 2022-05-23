@@ -86,7 +86,7 @@ module.exports = {
       .catch((err) => res.status(500).json(err));
   },
 
-  // Remove reaction from a thought
+  // Remove a reaction from a thought
   removeReaction(req, res) {
     Thought.findOneAndUpdate(
       { _id: req.params.thoughtId },
