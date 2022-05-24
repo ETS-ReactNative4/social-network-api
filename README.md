@@ -1,3 +1,9 @@
+[![Demo that shows the app seeding data for users, thoughts, and reactions](./Assets/socialNetworkAPISeeding.gif)](https://drive.google.com/file/d/1FdlTGZqqSry5yxkSZ0okVOj1zogLEKhT/view)
+
+[![Demo that shows the app querying, updating, and deleting users and friends](./Assets/socialNetworkAPIUsers.gif)](https://drive.google.com/file/d/1_ue2SVTFwfH2Qj20msS8DZIo_GNHtytG/view)
+
+[![Demo that shows the app querying, updating, and deleting users and friends](./Assets/socialNetworkAPIThoughts.gif)](https://drive.google.com/file/d/16EBVJvfeeiGNlAaPSSZCDfULlCKDO6F4/view)
+
 # 18 NoSQL: Social Network API
 
 ## Your Task
