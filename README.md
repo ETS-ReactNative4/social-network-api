@@ -4,7 +4,7 @@
 
   The server side API for a social network allowing users to add friends and thoughts, and have others react to their thoughts.
   
-  !(Github: https://github.com/MichaelMLetanosky/social-network-api)
+  Github: https://github.com/MichaelMLetanosky/social-network-api
 
 ## Table of Contents
 ---
