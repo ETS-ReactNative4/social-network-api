@@ -1,4 +1,28 @@
+# Social Network API
+
+## Description
+
+  The server side API for a social network allowing users to add friends and thoughts, and have others react to their thoughts.
+  
+  !(Github: https://github.com/MichaelMLetanosky/social-network-api)
+
+## Table of Contents
+---
+1. [Install](#install)
+1. [Instructions](#instructions)
+---
+
+## Install
+
+  The project should be seeded prior to using the server by using "npm run build". Once seeded the server can be start by typing npm run start.
+
 [![Demo that shows the app seeding data for users, thoughts, and reactions](./Assets/socialNetworkAPISeeding.gif)](https://drive.google.com/file/d/1FdlTGZqqSry5yxkSZ0okVOj1zogLEKhT/view)
+
+## Instructions
+
+
+  Once running you must use insomnia or other similiar application to query the API.
+
 
 [![Demo that shows the app querying, updating, and deleting users and friends](./Assets/socialNetworkAPIUsers.gif)](https://drive.google.com/file/d/1_ue2SVTFwfH2Qj20msS8DZIo_GNHtytG/view)
 
